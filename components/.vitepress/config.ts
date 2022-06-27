@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-// import fonts from 'vite-plugin-fonts'
 
 export default defineConfig({
   base       : process.env.BASE_URL ?? '/design-system/',
@@ -14,7 +13,6 @@ export default defineConfig({
     nextLinks   : false,
     prevLinks   : false,
     lastUpdated : 'Last Updated',
-    // smoothScroll: true,
     nav         : [],
     sidebar     : [
       {
@@ -92,6 +90,10 @@ export default defineConfig({
           {
             text: 'Subheading',
             link: '/subheading/component'
+          },
+          {
+            text: 'Truncate',
+            link: '/truncate/component'
           },
         ],
       },
