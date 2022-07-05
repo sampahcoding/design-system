@@ -427,7 +427,7 @@ __metadata:
     "@typescript-eslint/parser": 5.29.0
     "@vitejs/plugin-vue": 2.3.3
     "@vue/eslint-config-typescript": 11.0.0
-    "@vueuse/core": 8.6.0
+    "@vueuse/core": 8.7.5
     autoprefixer: 10.4.7
     c8: 7.11.3
     date-fns: 2.28.0
@@ -676,6 +676,13 @@ __metadata:
   dependencies:
     "@types/jest": "*"
   checksum: 203443d0e7e5929fbc9e441146f92d85efa033b4697e427ed0164df1c40b720b6bb9bbd96a3171ea5fd8d9301b538fd0f49d4f35594d142afd0f6d2ecac25785
+  languageName: node
+  linkType: hard
+
+"@types/web-bluetooth@npm:^0.0.14":
+  version: 0.0.14
+  resolution: "@types/web-bluetooth@npm:0.0.14"
+  checksum: 1eb694ff2ba6ef239e10024bfb205c087fb1a43aa8b4a31f3a3b7c90eccf2f55c7fb4c1057e382e1c2f4d6d8a137e68bf1255790b980c5ac95026419a623c6b5
   languageName: node
   linkType: hard
 
@@ -1134,12 +1141,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:8.6.0":
-  version: 8.6.0
-  resolution: "@vueuse/core@npm:8.6.0"
+"@vueuse/core@npm:8.7.5":
+  version: 8.7.5
+  resolution: "@vueuse/core@npm:8.7.5"
   dependencies:
-    "@vueuse/metadata": 8.6.0
-    "@vueuse/shared": 8.6.0
+    "@types/web-bluetooth": ^0.0.14
+    "@vueuse/metadata": 8.7.5
+    "@vueuse/shared": 8.7.5
     vue-demi: "*"
   peerDependencies:
     "@vue/composition-api": ^1.1.0
@@ -1149,20 +1157,20 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 5577699514e9d0c240f3322c8676814539340acc3c1f23dc44e80f96bc6b1d3241ec7da18fbcfccd3f4215374613714664c09f8293071bb2aaceac929a75c8c5
+  checksum: a92c6cd6c59060b1690326c42b251741f68f0cfff96fb3c932cb857be67b27994736e135630a0855a5d547ef7c54a2675423fdf200b496710a171a8abaebf612
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:8.6.0":
-  version: 8.6.0
-  resolution: "@vueuse/metadata@npm:8.6.0"
-  checksum: 434ae03d965a7fb9fa711b245d63e3b581a67902ec7ab6095f8ba395b3c6320da5f1b78e233686a73ba0349e49c2d183254b46cb3736a94b58c77b7992e27d0d
+"@vueuse/metadata@npm:8.7.5":
+  version: 8.7.5
+  resolution: "@vueuse/metadata@npm:8.7.5"
+  checksum: 02d7ae472eaad115a147d8bdbf6f0afeba56ced2cfa40e981333498593a7cef92debb2dddc83ea154b81201b0f8de9c7b38ac3034ccb29a3edfd4a4c4c0960c1
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:8.6.0":
-  version: 8.6.0
-  resolution: "@vueuse/shared@npm:8.6.0"
+"@vueuse/shared@npm:8.7.5":
+  version: 8.7.5
+  resolution: "@vueuse/shared@npm:8.7.5"
   dependencies:
     vue-demi: "*"
   peerDependencies:
@@ -1173,7 +1181,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 4c5eb1d034f79176e79386b13cbaf8481f3126d7fbce5ff4f79ac7aa3de84e67976662fe3dc21c002c5b5084edee8ccec304493fd80c9f28c58520a9aec32499
+  checksum: 475147a8de209332edd7a520fea0d7076cf1b275a5757aeffb9c6d4e9ecd2e7943b953f803cc30dac55776122f82091063ba089d09b9a48726c7b692f33efb72
   languageName: node
   linkType: hard
 
